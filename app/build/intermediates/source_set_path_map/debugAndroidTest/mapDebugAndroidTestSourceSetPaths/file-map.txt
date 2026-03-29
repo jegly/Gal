@@ -1,0 +1,4 @@
+com.gal.test.app-androidTest-0 /home/user/Downloads/Gal-source/gal/app/build/generated/res/resValues/androidTest/debug
+com.gal.test.app-mergeDebugAndroidTestResources-1 /home/user/Downloads/Gal-source/gal/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.gal.test.app-mergeDebugAndroidTestResources-2 /home/user/Downloads/Gal-source/gal/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.gal.test.app-debugAndroidTest-3 /home/user/Downloads/Gal-source/gal/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

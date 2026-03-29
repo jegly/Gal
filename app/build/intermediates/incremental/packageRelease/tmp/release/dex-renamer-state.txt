@@ -1,0 +1,4 @@
+#Sun Mar 29 16:15:12 AEDT 2026
+base.0=/home/user/Downloads/Gal-source/gal/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

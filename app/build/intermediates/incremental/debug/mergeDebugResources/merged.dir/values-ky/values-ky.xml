@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="exo_controls_playback_speeds">
+    <item>0,25x</item>
+    <item>0,5x</item>
+    <item>0,75x</item>
+    <item>Орточо</item>
+    <item>1,25x</item>
+    <item>1,5x</item>
+    <item>2x</item>
+  </string-array>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">%d секунд алдыга түрдүрүү</item>
+    <item quantity="other">%d секунд алдыга түрдүрүү</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">%d секунд артка түрдүрүү</item>
+    <item quantity="other">%d секунд артка түрдүрүү</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Башкы бетке чабыттоо"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Мурунку экранга өтүү"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Дагы параметрлер"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Бүттү"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Баарын көрүү"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Колдонмо тандоо"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ӨЧҮК"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"КҮЙҮК"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"боштук"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Издөө…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Сурамды өчүрүү"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Изделген сурам"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Издөө"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Сурам тапшыруу"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Айтып издөө"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Төмөнкү менен бөлүшүү"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> аркылуу бөлүшүү"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Жыйыштыруу"</string>
+    <string msgid="2102429900219199821" name="biometric_or_screen_lock_prompt_message">"Улантуу үчүн биометрикалык маалыматты же экрандын кулпусун колдонуңуз"</string>
+    <string msgid="1160635338192065472" name="biometric_prompt_message">"Улантуу үчүн биометрикалык жөндөөнү колдонуу"</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Жооп берүү"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Видео"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Четке кагуу"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Чалууну бүтүрүү"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Чалып жатат"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Учурдагы чалуу"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Кирүүчү чалууну иргөө"</string>
+    <string msgid="406453423630273620" name="close_drawer">"Чабыттоо менюсун жабуу"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"Баракты жабуу"</string>
+    <string msgid="5912733858573823945" name="confirm_device_credential_password">"Сырсөз колдонуу"</string>
+    <string msgid="8038256446254964252" name="default_error_message">"Киргизилген маалымат жараксыз"</string>
+    <string msgid="4776854077120974966" name="default_error_msg">"Белгисиз ката"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"Калкыма терезе"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"Түрүлмө меню"</string>
+    <string name="exo_controls_cc_disabled_description">Коштомо жазууларды иштетүү</string>
+    <string name="exo_controls_cc_enabled_description">Коштомо жазууларды өчүрүү</string>
+    <string name="exo_controls_fastforward_description">Алдыга түрүү</string>
+    <string name="exo_controls_fullscreen_enter_description">Толук экранга кирүү</string>
+    <string name="exo_controls_fullscreen_exit_description">Толук экран режиминен чыгуу</string>
+    <string name="exo_controls_hide">Ойноткучту башкаруу элементтерин жашыруу</string>
+    <string name="exo_controls_next_description">Кийинки</string>
+    <string name="exo_controls_overflow_hide_description">Кошумча параметрлерди жашыруу</string>
+    <string name="exo_controls_overflow_show_description">Кошумча параметрлерди көрсөтүү</string>
+    <string name="exo_controls_pause_description">Тындыруу</string>
+    <string name="exo_controls_play_description">Ойнотуу</string>
+    <string name="exo_controls_playback_speed">Ылдамдык</string>
+    <string name="exo_controls_previous_description">Мурунку</string>
+    <string name="exo_controls_repeat_all_description">Учурдагы режим: Баарын кайталоо. Кайталоо режимин өчүрүү/күйгүзүү.</string>
+    <string name="exo_controls_repeat_off_description">Учурдагы режим: Кайталанбасын. Кайталоо режимин өчүрүү/күйгүзүү.</string>
+    <string name="exo_controls_repeat_one_description">Учурдагы режим: Бир медианы кайталоо. Кайталоо режимин өчүрүү/күйгүзүү.</string>
+    <string name="exo_controls_rewind_description">Артка түрүү</string>
+    <string name="exo_controls_seek_bar_description">Ойнотуу көрсөткүчү</string>
+    <string name="exo_controls_settings_description">Параметрлер</string>
+    <string name="exo_controls_show">Ойноткучту башкаруу элементтерин көрсөтүү</string>
+    <string name="exo_controls_shuffle_off_description">Аралаштыруу режимин күйгүзүү</string>
+    <string name="exo_controls_shuffle_on_description">Аралаштыруу режимин өчүрүү</string>
+    <string name="exo_controls_stop_description">Токтотуу</string>
+    <string name="exo_controls_vr_description">VR режими</string>
+    <string name="exo_download_completed">Жүктөп алуу аяктады</string>
+    <string name="exo_download_description">Жүктөп алуу</string>
+    <string name="exo_download_downloading">Жүктөлүп алынууда</string>
+    <string name="exo_download_failed">Жүктөлүп алынбай калды</string>
+    <string name="exo_download_notification_channel_name">Жүктөлүп алынгандар</string>
+    <string name="exo_download_paused">Жүктөп алуу тындырылды</string>
+    <string name="exo_download_paused_for_network">Тармакка туташуу күтүлүүдө</string>
+    <string name="exo_download_paused_for_wifi">WiFi\'га туташуу күтүлүүдө</string>
+    <string name="exo_download_removing">Жүктөлүп алынгандар өчүрүлүүдө</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Мб/сек.</string>
+    <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Альтернативдүү трек</string>
+    <string name="exo_track_role_closed_captions">Коштомо жазуулар</string>
+    <string name="exo_track_role_commentary">Пикир</string>
+    <string name="exo_track_role_supplementary">Кошумча трек</string>
+    <string name="exo_track_selection_auto">Авто</string>
+    <string name="exo_track_selection_none">Жок</string>
+    <string name="exo_track_selection_title_audio">Аудио</string>
+    <string name="exo_track_stereo">Стерео</string>
+    <string name="exo_track_surround">Көлөмдүү үн</string>
+    <string name="exo_track_surround_5_point_1">5.1 көлөмдүү добуш</string>
+    <string name="exo_track_surround_7_point_1">7.1 көлөмдүү добуш</string>
+    <string name="exo_track_unknown">Белгисиз</string>
+    <string name="exo_track_unknown_name">Белгисиз (%1$s)</string>
+    <string msgid="4562557128765735254" name="face_or_screen_lock_prompt_message">"Улантуу үчүн жүзүңүздү же экрандын кулпусун колдонуңуз"</string>
+    <string msgid="2282389249605674226" name="face_prompt_message">"Улантуу үчүн жүзүңүздү көрсөтүңүз"</string>
+    <string msgid="5462024216548165325" name="fingerprint_dialog_icon_description">"Манжа изинин сүрөтчөсү"</string>
+    <string msgid="1072308044213194243" name="fingerprint_dialog_touch_sensor">"Манжа изинин сенсорун басыңыз"</string>
+    <string msgid="8216738333501875566" name="fingerprint_error_hw_not_available">"Манжа изинин аппараттык камсыздоосу жеткиликтүү эмес."</string>
+    <string msgid="6306988885793029438" name="fingerprint_error_hw_not_present">"Бул түзмөктө манжа изинин сенсору жок"</string>
+    <string msgid="7291787166416782245" name="fingerprint_error_lockout">"Өтө көп жолу аракет кылдыңыз. Кийинчерээк кайра кайталап көрүңүз."</string>
+    <string msgid="7520712796891883488" name="fingerprint_error_no_fingerprints">"Бир да манжа изи катталган эмес."</string>
+    <string msgid="7627716295344353987" name="fingerprint_error_user_canceled">"Манжа изи менен аныктыгын текшерүүнү колдонуучу жокко чыгарды."</string>
+    <string msgid="3873359464293253009" name="fingerprint_not_recognized">"Таанылган жок"</string>
+    <string msgid="8382576858490514495" name="fingerprint_or_screen_lock_prompt_message">"Улантуу үчүн манжа изин же экрандын кулпусун колдонуңуз"</string>
+    <string msgid="7449360011861769080" name="fingerprint_prompt_message">"Улантуу үчүн манжаңызды сканерге тийгизиңиз"</string>
+    <string msgid="3791785319221634505" name="generic_error_no_device_credential">"PIN код, графикалык ачкыч же сырсөз коюлган жок."</string>
+    <string msgid="1807436368654974044" name="generic_error_no_keyguard">"Бул түзмөктө PIN кодду, графикалык ачкычты же сырсөздү колдонууга болбойт."</string>
+    <string msgid="7309881387583143581" name="generic_error_user_canceled">"Аутентификацияны колдонуучу жокко чыгарды."</string>
+    <string msgid="6827826412747255547" name="in_progress">"Аткарылууда"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"Жарым-жартылай текшерилди"</string>
+    <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"Ылдыйкы экранды жыйыштыруу"</string>
+    <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"Ылдыйкы экранды жабуу"</string>
+    <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"Сүйрөө маркери"</string>
+    <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"Ылдыйкы экранды жайып көрсөтүү"</string>
+    <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"Ылдыйкы экран"</string>
+    <string msgid="8166741421776570875" name="m3c_date_input_headline">"Киргизилген күн"</string>
+    <string msgid="229313757840775812" name="m3c_date_input_headline_description">"Киргизилген күн: %1$s"</string>
+    <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"Күндүн форматы үлгүгө дал келген жок: %1$s"</string>
+    <string msgid="2521768508935305279" name="m3c_date_input_invalid_not_allowed">"Күндүн мындай форматын колдонууга болбойт: %1$s"</string>
+    <string msgid="7052898923934555305" name="m3c_date_input_invalid_year_range">"Күн %1$s — %2$s деп белгиленген жылдар диапазонуна кирбей калды"</string>
+    <string msgid="2895559812010326913" name="m3c_date_input_label">"Күнү"</string>
+    <string msgid="1237013946323089826" name="m3c_date_input_no_input_description">"Жок"</string>
+    <string msgid="7306227249789210568" name="m3c_date_input_title">"Күндү тандоо"</string>
+    <string msgid="7605002211875882969" name="m3c_date_picker_headline">"Тандалган күн"</string>
+    <string msgid="3664277305226978227" name="m3c_date_picker_headline_description">"Учурда %1$s тандалды"</string>
+    <string msgid="8436650776581492840" name="m3c_date_picker_navigate_to_year_description">"%1$s-жылга өтүү"</string>
+    <string msgid="5811000998184572395" name="m3c_date_picker_no_selection_description">"Жок"</string>
+    <string msgid="7813882352367152251" name="m3c_date_picker_scroll_to_earlier_years">"Мурунку жылдарды көрүү үчүн сыдырыңыз"</string>
+    <string msgid="5727367015496556177" name="m3c_date_picker_scroll_to_later_years">"Кийинки жылдарды көрүү үчүн сыдырыңыз"</string>
+    <string msgid="1804346892470238807" name="m3c_date_picker_switch_to_calendar_mode">"Жылнаамага киргизүү режимине которулуу"</string>
+    <string msgid="395627960681594326" name="m3c_date_picker_switch_to_day_selection">"Жылды тандоо үчүн экранды сүрүңүз же күндү тандоого кайтуу үчүн таптап коюңуз"</string>
+    <string msgid="2219746470065162704" name="m3c_date_picker_switch_to_input_mode">"Текст киргизүү режимине которулуу"</string>
+    <string msgid="7142101321095356500" name="m3c_date_picker_switch_to_next_month">"Кийинки айга өзгөртүү"</string>
+    <string msgid="228438865139394590" name="m3c_date_picker_switch_to_previous_month">"Мурунку айга өзгөртүү"</string>
+    <string msgid="791651718641787594" name="m3c_date_picker_switch_to_year_selection">"Жыл тандоого которулуу"</string>
+    <string msgid="7430790972741451689" name="m3c_date_picker_title">"Күндү тандоо"</string>
+    <string msgid="3199387177749801575" name="m3c_date_picker_today_description">"Бүгүн"</string>
+    <string msgid="2068382232816991922" name="m3c_date_picker_year_picker_pane_title">"Көрсөтүлгөн жыл тандагыч"</string>
+    <string msgid="3190049423327661366" name="m3c_date_range_input_invalid_range_input">"Даталар диапазону туура эмес тандалды"</string>
+    <string msgid="3148384720560189467" name="m3c_date_range_input_title">"Күндөрдү киргизүү"</string>
+    <string msgid="2138321128465719402" name="m3c_date_range_picker_day_in_range">"Төмөнкү убакыт аралыгындагы күн"</string>
+    <string msgid="4947636797751277713" name="m3c_date_range_picker_end_headline">"Аяктоо күнү"</string>
+    <string msgid="602077859540990149" name="m3c_date_range_picker_scroll_to_next_month">"Кийинки айды көрүү үчүн сыдырыңыз"</string>
+    <string msgid="4592174524846109496" name="m3c_date_range_picker_scroll_to_previous_month">"Мурунку айды көрүү үчүн сыдырыңыз"</string>
+    <string msgid="4665981448952749820" name="m3c_date_range_picker_start_headline">"Башталуу күнү"</string>
+    <string msgid="3134165431120340385" name="m3c_date_range_picker_title">"Күндөрдү тандоо"</string>
+    <string msgid="7617233117134790350" name="m3c_dialog">"Диалог"</string>
+    <string msgid="3177828188723359358" name="m3c_dropdown_menu_collapsed">"Жыйыштырылды"</string>
+    <string msgid="2360841780724299882" name="m3c_dropdown_menu_expanded">"Жайылып көрсөтүлдү"</string>
+    <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"Түрүлмө менюну өчүрүү/күйгүзүү"</string>
+    <string msgid="6152806324422087846" name="m3c_search_bar_search">"Издөө"</string>
+    <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"Жабуу"</string>
+    <string msgid="7655536806087401899" name="m3c_suggestions_available">"Сунуштар төмөндө келтирилди"</string>
+    <string msgid="2786685010796619560" name="m3c_time_picker_am">"түшкө чейин"</string>
+    <string msgid="2349193472625211372" name="m3c_time_picker_hour">"Саат"</string>
+    <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d саат"</string>
+    <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"Саат тандоо"</string>
+    <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"%1$d саат"</string>
+    <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"саатка"</string>
+    <string msgid="4313071914266462005" name="m3c_time_picker_minute">"Мүнөт"</string>
+    <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"Мүнөттөрдү тандаңыз"</string>
+    <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"%1$d мүнөт"</string>
+    <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"мүнөткө"</string>
+    <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"Түшкө чейинки же түштөн кийинки убакытты тандоо"</string>
+    <string msgid="6616362054113087709" name="m3c_time_picker_pm">"түштөн кийин"</string>
+    <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"Калкып чыгуучу кеңешти көрсөтүү"</string>
+    <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"Калкып чыгуучу кеңеш"</string>
+    <string msgid="542007171693138492" name="navigation_menu">"Чабыттоо менюсу"</string>
+    <string msgid="6610465462668679431" name="not_selected">"Тандалган жок"</string>
+    <string msgid="5941395253238309765" name="range_end">"Диапазондун аягы"</string>
+    <string msgid="7097486360902471446" name="range_start">"Диапазондун башы"</string>
+    <string msgid="5659570757430909869" name="screen_lock_prompt_message">"Улантуу үчүн экрандын кулпусун киргизиңиз"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Издөө"</string>
+    <string msgid="6043586758067023" name="selected">"Тандалды"</string>
+    <string msgid="4139871816613051306" name="state_empty">"Бош"</string>
+    <string msgid="5834637030682409883" name="state_off">"Өчүк"</string>
+    <string msgid="1490883874751719580" name="state_on">"Күйүк"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="2561197295334830845" name="switch_role">"Которгуч"</string>
+    <string msgid="1672349317127674378" name="tab">"Өтмөк"</string>
+    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> пайыз."</string>
+    <string msgid="3765533235322692011" name="tooltip_description">"калкып чыгуучу кеңеш"</string>
+    <string msgid="3124740595719787496" name="tooltip_label">"калкып чыгуучу кеңешти көрсөтүү"</string>
+    <string msgid="6524145989441579428" name="use_biometric_label">"Биометрикалык жөндөөлөрдү колдонуу"</string>
+    <string msgid="5385448280139639016" name="use_biometric_or_screen_lock_label">"Биометрикалык жөндөөнү же экрандын кулпусун колдонуу"</string>
+    <string msgid="6533512708069459542" name="use_face_label">"Жүзүнөн таанып ачууну колдонуу"</string>
+    <string msgid="2116180187159450292" name="use_face_or_screen_lock_label">"Жүзүнөн таанып ачууну же экрандын кулпусун колдонуу"</string>
+    <string msgid="6961788485681412417" name="use_fingerprint_label">"Манжа изин колдонуу"</string>
+    <string msgid="7577690399303139443" name="use_fingerprint_or_screen_lock_label">"Манжа изин же экрандын кулпусун колдонуу"</string>
+    <string msgid="5459869335976243512" name="use_screen_lock_label">"Экран кулпусун колдонуу"</string>
+</resources>

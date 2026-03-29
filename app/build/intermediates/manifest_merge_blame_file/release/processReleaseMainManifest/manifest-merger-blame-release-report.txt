@@ -1,0 +1,337 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.gal"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="30"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- ================================================================ -->
+12    <!-- STORAGE -->
+13    <!-- ================================================================ -->
+14    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+14-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:8:5-76
+14-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:8:22-73
+15    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+15-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:9:5-75
+15-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:9:22-72
+16    <!-- Partial media access — Android 14+ -->
+17    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED" />
+17-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:11:5-90
+17-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:11:22-87
+18    <!-- Legacy — Android 9 and below only -->
+19    <uses-permission
+19-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:13:5-15:38
+20        android:name="android.permission.READ_EXTERNAL_STORAGE"
+20-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:14:9-64
+21        android:maxSdkVersion="28" />
+21-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:15:9-35
+22    <!-- EXIF GPS data read from media -->
+23    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+23-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:17:5-80
+23-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:17:22-77
+24    <!-- Move / delete / trash via MediaStore -->
+25    <uses-permission android:name="android.permission.MANAGE_MEDIA" />
+25-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:19:5-20:47
+25-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:19:22-68
+26
+27    <!-- ================================================================ -->
+28    <!-- BIOMETRIC: Vault unlock -->
+29    <!-- ================================================================ -->
+30    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+30-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:25:5-72
+30-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:25:22-69
+31
+32    <!-- ================================================================ -->
+33    <!-- UI -->
+34    <!-- ================================================================ -->
+35    <uses-permission android:name="android.permission.VIBRATE" />
+35-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:30:5-66
+35-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:30:22-63
+36    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+36-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:31:5-77
+36-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:31:22-74
+37
+38    <queries>
+38-->[com.vanniktech:android-image-cropper:4.7.0] /home/user/.gradle/caches/8.11.1/transforms/add0a4cb195f48efe6c1d04216491858/transformed/android-image-cropper-4.7.0/AndroidManifest.xml:7:5-18:15
+39        <intent>
+39-->[com.vanniktech:android-image-cropper:4.7.0] /home/user/.gradle/caches/8.11.1/transforms/add0a4cb195f48efe6c1d04216491858/transformed/android-image-cropper-4.7.0/AndroidManifest.xml:8:9-14:18
+40            <action android:name="android.intent.action.GET_CONTENT" />
+40-->[com.vanniktech:android-image-cropper:4.7.0] /home/user/.gradle/caches/8.11.1/transforms/add0a4cb195f48efe6c1d04216491858/transformed/android-image-cropper-4.7.0/AndroidManifest.xml:9:13-72
+40-->[com.vanniktech:android-image-cropper:4.7.0] /home/user/.gradle/caches/8.11.1/transforms/add0a4cb195f48efe6c1d04216491858/transformed/android-image-cropper-4.7.0/AndroidManifest.xml:9:21-69
+41
+42            <category android:name="android.intent.category.OPENABLE" />
+42-->[com.vanniktech:android-image-cropper:4.7.0] /home/user/.gradle/caches/8.11.1/transforms/add0a4cb195f48efe6c1d04216491858/transformed/android-image-cropper-4.7.0/AndroidManifest.xml:11:13-73
+42-->[com.vanniktech:android-image-cropper:4.7.0] /home/user/.gradle/caches/8.11.1/transforms/add0a4cb195f48efe6c1d04216491858/transformed/android-image-cropper-4.7.0/AndroidManifest.xml:11:23-70
+43
+44            <data android:mimeType="*/*" />
+44-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:95:17-77
+44-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:95:23-49
+45        </intent>
+46        <intent>
+46-->[com.vanniktech:android-image-cropper:4.7.0] /home/user/.gradle/caches/8.11.1/transforms/add0a4cb195f48efe6c1d04216491858/transformed/android-image-cropper-4.7.0/AndroidManifest.xml:15:9-17:18
+47            <action android:name="android.media.action.IMAGE_CAPTURE" />
+47-->[com.vanniktech:android-image-cropper:4.7.0] /home/user/.gradle/caches/8.11.1/transforms/add0a4cb195f48efe6c1d04216491858/transformed/android-image-cropper-4.7.0/AndroidManifest.xml:16:13-73
+47-->[com.vanniktech:android-image-cropper:4.7.0] /home/user/.gradle/caches/8.11.1/transforms/add0a4cb195f48efe6c1d04216491858/transformed/android-image-cropper-4.7.0/AndroidManifest.xml:16:21-70
+48        </intent>
+49    </queries> <!-- suppress DeprecatedClassUsageInspection -->
+50    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+50-->[androidx.biometric:biometric:1.2.0-alpha05] /home/user/.gradle/caches/8.11.1/transforms/cf5d446953f2f726a3fb35a7f30b3ee5/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:25:5-74
+50-->[androidx.biometric:biometric:1.2.0-alpha05] /home/user/.gradle/caches/8.11.1/transforms/cf5d446953f2f726a3fb35a7f30b3ee5/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:25:22-71
+51
+52    <permission
+52-->[androidx.core:core:1.15.0] /home/user/.gradle/caches/8.11.1/transforms/2bad308cba345dfde8a1c249cfb26059/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+53        android:name="com.gal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+53-->[androidx.core:core:1.15.0] /home/user/.gradle/caches/8.11.1/transforms/2bad308cba345dfde8a1c249cfb26059/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+54        android:protectionLevel="signature" />
+54-->[androidx.core:core:1.15.0] /home/user/.gradle/caches/8.11.1/transforms/2bad308cba345dfde8a1c249cfb26059/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+55
+56    <uses-permission android:name="com.gal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+56-->[androidx.core:core:1.15.0] /home/user/.gradle/caches/8.11.1/transforms/2bad308cba345dfde8a1c249cfb26059/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+56-->[androidx.core:core:1.15.0] /home/user/.gradle/caches/8.11.1/transforms/2bad308cba345dfde8a1c249cfb26059/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+57
+58    <application
+58-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:51:5-108:19
+59        android:name="com.gal.GalApplication"
+59-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:52:9-39
+60        android:allowBackup="false"
+60-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:53:9-36
+61        android:appCategory="image"
+61-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:64:9-36
+62        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+62-->[androidx.core:core:1.15.0] /home/user/.gradle/caches/8.11.1/transforms/2bad308cba345dfde8a1c249cfb26059/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+63        android:dataExtractionRules="@xml/data_extraction_rules"
+63-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:54:9-65
+64        android:enableOnBackInvokedCallback="true"
+64-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:63:9-51
+65        android:extractNativeLibs="false"
+66        android:fullBackupContent="false"
+66-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:55:9-42
+67        android:icon="@mipmap/ic_launcher"
+67-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:56:9-43
+68        android:label="@string/app_name"
+68-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:57:9-41
+69        android:networkSecurityConfig="@xml/network_security_config"
+69-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:58:9-69
+70        android:roundIcon="@mipmap/ic_launcher_round"
+70-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:59:9-54
+71        android:supportsRtl="true"
+71-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:60:9-35
+72        android:theme="@style/Theme.Gal"
+72-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:61:9-41
+73        android:usesCleartextTraffic="false" >
+73-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:62:9-45
+74        <provider
+75            android:name="androidx.core.content.FileProvider"
+75-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:68:13-62
+76            android:authorities="com.gal.fileprovider"
+76-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:69:13-64
+77            android:exported="false"
+77-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:70:13-37
+78            android:grantUriPermissions="true" >
+78-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:71:13-47
+79            <meta-data
+79-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:72:13-74:53
+80                android:name="android.support.FILE_PROVIDER_PATHS"
+80-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:73:17-67
+81                android:resource="@xml/filepaths" />
+81-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:74:17-50
+82        </provider>
+83
+84        <activity
+84-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:77:9-100:20
+85            android:name="com.gal.MainActivity"
+85-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:78:13-41
+86            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|density|keyboardHidden"
+86-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:80:13-114
+87            android:exported="true"
+87-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:79:13-36
+88            android:launchMode="singleTask"
+88-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:82:13-44
+89            android:windowSoftInputMode="adjustResize" >
+89-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:81:13-55
+90            <meta-data
+90-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:83:13-85:40
+91                android:name="android.allow_multiple_resumed_activities"
+91-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:84:17-73
+92                android:value="true" />
+92-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:85:17-37
+93
+94            <intent-filter>
+94-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:86:13-90:29
+95                <action android:name="android.intent.action.MAIN" />
+95-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:87:17-69
+95-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:87:25-66
+96
+97                <category android:name="android.intent.category.LAUNCHER" />
+97-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:88:17-77
+97-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:88:27-74
+98                <category android:name="android.intent.category.APP_GALLERY" />
+98-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:89:17-80
+98-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:89:27-77
+99            </intent-filter>
+100            <!-- View local images/video only — no http/https/rtsp schemes -->
+101            <intent-filter>
+101-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:92:13-99:29
+102                <action android:name="android.intent.action.VIEW" />
+102-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:93:17-69
+102-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:93:25-66
+103
+104                <category android:name="android.intent.category.DEFAULT" />
+104-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:94:17-76
+104-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:94:27-73
+105
+106                <data
+106-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:95:17-77
+107                    android:mimeType="image/*"
+107-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:95:23-49
+108                    android:scheme="content" />
+108-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:95:50-74
+109                <data
+109-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:95:17-77
+110                    android:mimeType="image/*"
+110-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:95:23-49
+111                    android:scheme="file" />
+111-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:95:50-74
+112                <data
+112-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:95:17-77
+113                    android:mimeType="video/*"
+113-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:95:23-49
+114                    android:scheme="content" />
+114-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:95:50-74
+115                <data
+115-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:95:17-77
+116                    android:mimeType="video/*"
+116-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:95:23-49
+117                    android:scheme="file" />
+117-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:95:50-74
+118            </intent-filter>
+119        </activity>
+120        <activity
+120-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:102:13-106:48
+121            android:name="com.gal.ui.screens.editor.EditActivity"
+121-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:103:13-59
+122            android:configChanges="orientation|screenSize"
+122-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:105:13-59
+123            android:exported="false"
+123-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:104:13-37
+124            android:theme="@style/Theme.Gal" />
+124-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:106:13-45
+125
+126        <provider
+126-->[com.vanniktech:android-image-cropper:4.7.0] /home/user/.gradle/caches/8.11.1/transforms/add0a4cb195f48efe6c1d04216491858/transformed/android-image-cropper-4.7.0/AndroidManifest.xml:21:9-29:20
+127            android:name="com.canhub.cropper.CropFileProvider"
+127-->[com.vanniktech:android-image-cropper:4.7.0] /home/user/.gradle/caches/8.11.1/transforms/add0a4cb195f48efe6c1d04216491858/transformed/android-image-cropper-4.7.0/AndroidManifest.xml:22:13-63
+128            android:authorities="com.gal.cropper.fileprovider"
+128-->[com.vanniktech:android-image-cropper:4.7.0] /home/user/.gradle/caches/8.11.1/transforms/add0a4cb195f48efe6c1d04216491858/transformed/android-image-cropper-4.7.0/AndroidManifest.xml:23:13-72
+129            android:exported="false"
+129-->[com.vanniktech:android-image-cropper:4.7.0] /home/user/.gradle/caches/8.11.1/transforms/add0a4cb195f48efe6c1d04216491858/transformed/android-image-cropper-4.7.0/AndroidManifest.xml:24:13-37
+130            android:grantUriPermissions="true" >
+130-->[com.vanniktech:android-image-cropper:4.7.0] /home/user/.gradle/caches/8.11.1/transforms/add0a4cb195f48efe6c1d04216491858/transformed/android-image-cropper-4.7.0/AndroidManifest.xml:25:13-47
+131            <meta-data
+131-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:72:13-74:53
+132                android:name="android.support.FILE_PROVIDER_PATHS"
+132-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:73:17-67
+133                android:resource="@xml/cropper_library_file_paths" />
+133-->/home/user/Downloads/Gal-source/gal/app/src/main/AndroidManifest.xml:74:17-50
+134        </provider>
+135
+136        <activity
+136-->[com.vanniktech:android-image-cropper:4.7.0] /home/user/.gradle/caches/8.11.1/transforms/add0a4cb195f48efe6c1d04216491858/transformed/android-image-cropper-4.7.0/AndroidManifest.xml:31:9-33:39
+137            android:name="com.canhub.cropper.CropImageActivity"
+137-->[com.vanniktech:android-image-cropper:4.7.0] /home/user/.gradle/caches/8.11.1/transforms/add0a4cb195f48efe6c1d04216491858/transformed/android-image-cropper-4.7.0/AndroidManifest.xml:32:13-64
+138            android:exported="true" />
+138-->[com.vanniktech:android-image-cropper:4.7.0] /home/user/.gradle/caches/8.11.1/transforms/add0a4cb195f48efe6c1d04216491858/transformed/android-image-cropper-4.7.0/AndroidManifest.xml:33:13-36
+139
+140        <uses-library
+140-->[androidx.window:window:1.3.0] /home/user/.gradle/caches/8.11.1/transforms/9b24d3d09b616f9a41cae77264b855f3/transformed/window-1.3.0/AndroidManifest.xml:23:9-25:40
+141            android:name="androidx.window.extensions"
+141-->[androidx.window:window:1.3.0] /home/user/.gradle/caches/8.11.1/transforms/9b24d3d09b616f9a41cae77264b855f3/transformed/window-1.3.0/AndroidManifest.xml:24:13-54
+142            android:required="false" />
+142-->[androidx.window:window:1.3.0] /home/user/.gradle/caches/8.11.1/transforms/9b24d3d09b616f9a41cae77264b855f3/transformed/window-1.3.0/AndroidManifest.xml:25:13-37
+143        <uses-library
+143-->[androidx.window:window:1.3.0] /home/user/.gradle/caches/8.11.1/transforms/9b24d3d09b616f9a41cae77264b855f3/transformed/window-1.3.0/AndroidManifest.xml:26:9-28:40
+144            android:name="androidx.window.sidecar"
+144-->[androidx.window:window:1.3.0] /home/user/.gradle/caches/8.11.1/transforms/9b24d3d09b616f9a41cae77264b855f3/transformed/window-1.3.0/AndroidManifest.xml:27:13-51
+145            android:required="false" />
+145-->[androidx.window:window:1.3.0] /home/user/.gradle/caches/8.11.1/transforms/9b24d3d09b616f9a41cae77264b855f3/transformed/window-1.3.0/AndroidManifest.xml:28:13-37
+146
+147        <provider
+147-->[androidx.emoji2:emoji2:1.3.0] /home/user/.gradle/caches/8.11.1/transforms/f14aa6e42ded5ab3f33187586b81c527/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+148            android:name="androidx.startup.InitializationProvider"
+148-->[androidx.emoji2:emoji2:1.3.0] /home/user/.gradle/caches/8.11.1/transforms/f14aa6e42ded5ab3f33187586b81c527/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+149            android:authorities="com.gal.androidx-startup"
+149-->[androidx.emoji2:emoji2:1.3.0] /home/user/.gradle/caches/8.11.1/transforms/f14aa6e42ded5ab3f33187586b81c527/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+150            android:exported="false" >
+150-->[androidx.emoji2:emoji2:1.3.0] /home/user/.gradle/caches/8.11.1/transforms/f14aa6e42ded5ab3f33187586b81c527/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+151            <meta-data
+151-->[androidx.emoji2:emoji2:1.3.0] /home/user/.gradle/caches/8.11.1/transforms/f14aa6e42ded5ab3f33187586b81c527/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+152                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+152-->[androidx.emoji2:emoji2:1.3.0] /home/user/.gradle/caches/8.11.1/transforms/f14aa6e42ded5ab3f33187586b81c527/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+153                android:value="androidx.startup" />
+153-->[androidx.emoji2:emoji2:1.3.0] /home/user/.gradle/caches/8.11.1/transforms/f14aa6e42ded5ab3f33187586b81c527/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+154            <meta-data
+154-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/user/.gradle/caches/8.11.1/transforms/ac58a2e31cc176a347595ce0db77f91d/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+155                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+155-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/user/.gradle/caches/8.11.1/transforms/ac58a2e31cc176a347595ce0db77f91d/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+156                android:value="androidx.startup" />
+156-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/user/.gradle/caches/8.11.1/transforms/ac58a2e31cc176a347595ce0db77f91d/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+157            <meta-data
+157-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/user/.gradle/caches/8.11.1/transforms/b50af183cb16dad8caf27a393f7a0e72/transformed/profileinstaller-1.4.1/AndroidManifest.xml:29:13-31:52
+158                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+158-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/user/.gradle/caches/8.11.1/transforms/b50af183cb16dad8caf27a393f7a0e72/transformed/profileinstaller-1.4.1/AndroidManifest.xml:30:17-85
+159                android:value="androidx.startup" />
+159-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/user/.gradle/caches/8.11.1/transforms/b50af183cb16dad8caf27a393f7a0e72/transformed/profileinstaller-1.4.1/AndroidManifest.xml:31:17-49
+160        </provider>
+161
+162        <service
+162-->[androidx.room:room-runtime:2.6.1] /home/user/.gradle/caches/8.11.1/transforms/f4f546a90c72eb2a6e4da57adb4defc8/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+163            android:name="androidx.room.MultiInstanceInvalidationService"
+163-->[androidx.room:room-runtime:2.6.1] /home/user/.gradle/caches/8.11.1/transforms/f4f546a90c72eb2a6e4da57adb4defc8/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+164            android:directBootAware="true"
+164-->[androidx.room:room-runtime:2.6.1] /home/user/.gradle/caches/8.11.1/transforms/f4f546a90c72eb2a6e4da57adb4defc8/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+165            android:exported="false" />
+165-->[androidx.room:room-runtime:2.6.1] /home/user/.gradle/caches/8.11.1/transforms/f4f546a90c72eb2a6e4da57adb4defc8/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+166
+167        <receiver
+167-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/user/.gradle/caches/8.11.1/transforms/b50af183cb16dad8caf27a393f7a0e72/transformed/profileinstaller-1.4.1/AndroidManifest.xml:34:9-52:20
+168            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+168-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/user/.gradle/caches/8.11.1/transforms/b50af183cb16dad8caf27a393f7a0e72/transformed/profileinstaller-1.4.1/AndroidManifest.xml:35:13-76
+169            android:directBootAware="false"
+169-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/user/.gradle/caches/8.11.1/transforms/b50af183cb16dad8caf27a393f7a0e72/transformed/profileinstaller-1.4.1/AndroidManifest.xml:36:13-44
+170            android:enabled="true"
+170-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/user/.gradle/caches/8.11.1/transforms/b50af183cb16dad8caf27a393f7a0e72/transformed/profileinstaller-1.4.1/AndroidManifest.xml:37:13-35
+171            android:exported="true"
+171-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/user/.gradle/caches/8.11.1/transforms/b50af183cb16dad8caf27a393f7a0e72/transformed/profileinstaller-1.4.1/AndroidManifest.xml:38:13-36
+172            android:permission="android.permission.DUMP" >
+172-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/user/.gradle/caches/8.11.1/transforms/b50af183cb16dad8caf27a393f7a0e72/transformed/profileinstaller-1.4.1/AndroidManifest.xml:39:13-57
+173            <intent-filter>
+173-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/user/.gradle/caches/8.11.1/transforms/b50af183cb16dad8caf27a393f7a0e72/transformed/profileinstaller-1.4.1/AndroidManifest.xml:40:13-42:29
+174                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+174-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/user/.gradle/caches/8.11.1/transforms/b50af183cb16dad8caf27a393f7a0e72/transformed/profileinstaller-1.4.1/AndroidManifest.xml:41:17-91
+174-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/user/.gradle/caches/8.11.1/transforms/b50af183cb16dad8caf27a393f7a0e72/transformed/profileinstaller-1.4.1/AndroidManifest.xml:41:25-88
+175            </intent-filter>
+176            <intent-filter>
+176-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/user/.gradle/caches/8.11.1/transforms/b50af183cb16dad8caf27a393f7a0e72/transformed/profileinstaller-1.4.1/AndroidManifest.xml:43:13-45:29
+177                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+177-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/user/.gradle/caches/8.11.1/transforms/b50af183cb16dad8caf27a393f7a0e72/transformed/profileinstaller-1.4.1/AndroidManifest.xml:44:17-85
+177-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/user/.gradle/caches/8.11.1/transforms/b50af183cb16dad8caf27a393f7a0e72/transformed/profileinstaller-1.4.1/AndroidManifest.xml:44:25-82
+178            </intent-filter>
+179            <intent-filter>
+179-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/user/.gradle/caches/8.11.1/transforms/b50af183cb16dad8caf27a393f7a0e72/transformed/profileinstaller-1.4.1/AndroidManifest.xml:46:13-48:29
+180                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+180-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/user/.gradle/caches/8.11.1/transforms/b50af183cb16dad8caf27a393f7a0e72/transformed/profileinstaller-1.4.1/AndroidManifest.xml:47:17-88
+180-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/user/.gradle/caches/8.11.1/transforms/b50af183cb16dad8caf27a393f7a0e72/transformed/profileinstaller-1.4.1/AndroidManifest.xml:47:25-85
+181            </intent-filter>
+182            <intent-filter>
+182-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/user/.gradle/caches/8.11.1/transforms/b50af183cb16dad8caf27a393f7a0e72/transformed/profileinstaller-1.4.1/AndroidManifest.xml:49:13-51:29
+183                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+183-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/user/.gradle/caches/8.11.1/transforms/b50af183cb16dad8caf27a393f7a0e72/transformed/profileinstaller-1.4.1/AndroidManifest.xml:50:17-95
+183-->[androidx.profileinstaller:profileinstaller:1.4.1] /home/user/.gradle/caches/8.11.1/transforms/b50af183cb16dad8caf27a393f7a0e72/transformed/profileinstaller-1.4.1/AndroidManifest.xml:50:25-92
+184            </intent-filter>
+185        </receiver>
+186    </application>
+187
+188</manifest>

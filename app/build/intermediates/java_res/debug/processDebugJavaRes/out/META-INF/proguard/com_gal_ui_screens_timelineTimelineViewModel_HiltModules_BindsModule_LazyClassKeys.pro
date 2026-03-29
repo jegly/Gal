@@ -1,0 +1,1 @@
+-keep,allowobfuscation,allowshrinking class com.gal.ui.screens.timeline.TimelineViewModel

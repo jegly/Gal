@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.gal.app-mergeDebugResources-76:/values-ru-rRU/values-ru-rRU.xml",
+            "map": [
+                {
+                    "source": "/home/user/.gradle/caches/8.11.1/transforms/add0a4cb195f48efe6c1d04216491858/transformed/android-image-cropper-4.7.0/res/values-ru-rRU/values-ru-rRU.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,161,237,309,372,437,490,560",
+                        "endColumns": "57,47,75,71,62,64,52,69,54",
+                        "endOffsets": "108,156,232,304,367,432,485,555,610"
+                    }
+                }
+            ]
+        }
+    ]
+}

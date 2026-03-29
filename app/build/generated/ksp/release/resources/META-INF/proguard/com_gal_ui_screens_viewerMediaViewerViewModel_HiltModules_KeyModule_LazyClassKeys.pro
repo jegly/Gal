@@ -1,0 +1,14 @@
+-keep,allowobfuscation,allowshrinking class com.gal.ui.screens.timeline.TimelineViewModel
+-keep,allowobfuscation,allowshrinking class com.gal.ui.screens.timeline.TimelineViewModel
+-keep,allowobfuscation,allowshrinking class com.gal.ui.screens.settings.SettingsViewModel
+-keep,allowobfuscation,allowshrinking class com.gal.ui.screens.settings.SettingsViewModel
+-keep,allowobfuscation,allowshrinking class com.gal.ui.screens.trash.TrashViewModel
+-keep,allowobfuscation,allowshrinking class com.gal.ui.screens.trash.TrashViewModel
+-keep,allowobfuscation,allowshrinking class com.gal.ui.screens.albums.AlbumViewModel
+-keep,allowobfuscation,allowshrinking class com.gal.ui.screens.albums.AlbumViewModel
+-keep,allowobfuscation,allowshrinking class com.gal.ui.screens.albums.AlbumsViewModel
+-keep,allowobfuscation,allowshrinking class com.gal.ui.screens.albums.AlbumsViewModel
+-keep,allowobfuscation,allowshrinking class com.gal.ui.screens.search.SearchViewModel
+-keep,allowobfuscation,allowshrinking class com.gal.ui.screens.search.SearchViewModel
+-keep,allowobfuscation,allowshrinking class com.gal.ui.screens.viewer.MediaViewerViewModel
+-keep,allowobfuscation,allowshrinking class com.gal.ui.screens.viewer.MediaViewerViewModel

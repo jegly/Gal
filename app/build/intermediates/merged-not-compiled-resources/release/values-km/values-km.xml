@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="exo_controls_playback_speeds">
+    <item>0.25x</item>
+    <item>0.5x</item>
+    <item>0.75x</item>
+    <item>ធម្មតា</item>
+    <item>1.25x</item>
+    <item>1.5x</item>
+    <item>2x</item>
+  </string-array>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">ខា​ទៅមុខ %d វិនាទី</item>
+    <item quantity="other">ខា​ទៅមុខ %d វិនាទី</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">ខា​ថយក្រោយ %d វិនាទី</item>
+    <item quantity="other">ខា​ថយក្រោយ %d វិនាទី</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"​ទៅទំព័រដើម"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"រំកិលឡើងលើ"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"ជម្រើសច្រើនទៀត"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"រួចរាល់"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"មើលទាំងអស់"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"ជ្រើសរើស​កម្មវិធី​​"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"បិទ"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"បើក"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"លុប"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"ស្វែងរក…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"សម្អាត​សំណួរ"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"ស្វែងរកសំណួរ​"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"ស្វែងរក"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"ដាក់បញ្ជូន​សំណួរ"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"ស្វែងរក​តាម​សំឡេង"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"ចែករំលែក​ជា​មួយ"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"ចែក​រំលែក​ជា​មួយ <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"បង្រួម"</string>
+    <string msgid="2102429900219199821" name="biometric_or_screen_lock_prompt_message">"ប្រើការចាក់សោអេក្រង់ ឬជីវមាត្ររបស់អ្នក ដើម្បីបន្ត"</string>
+    <string msgid="1160635338192065472" name="biometric_prompt_message">"ប្រើជីវមាត្រ​របស់អ្នក ដើម្បីបន្ត"</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"ឆ្លើយ"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"វីដេអូ"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"បដិសេធ"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"ដាក់​ចុះ"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"ការ​ហៅ​ចូល"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"ការ​ហៅដែលកំពុងដំណើរការ"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"កំពុងពិនិត្យការ​ហៅ​ចូល"</string>
+    <string msgid="406453423630273620" name="close_drawer">"បិទម៉ឺនុយរុករក"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"បិទសន្លឹក"</string>
+    <string msgid="5912733858573823945" name="confirm_device_credential_password">"ប្រើពាក្យសម្ងាត់"</string>
+    <string msgid="8038256446254964252" name="default_error_message">"ការបញ្ចូល​មិនត្រឹមត្រូវ"</string>
+    <string msgid="4776854077120974966" name="default_error_msg">"មាន​បញ្ហា​ដែល​មិន​ស្គាល់"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"វិនដូ​លោតឡើង"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"ម៉ឺនុយធ្លាក់ចុះ"</string>
+    <string name="exo_controls_cc_disabled_description">បើកអក្សររត់</string>
+    <string name="exo_controls_cc_enabled_description">បិទអក្សររត់</string>
+    <string name="exo_controls_fastforward_description">ទៅ​មុខ​​​រហ័ស</string>
+    <string name="exo_controls_fullscreen_enter_description">ចូលអេក្រង់ពេញ</string>
+    <string name="exo_controls_fullscreen_exit_description">ចាកចេញពីអេក្រង់ពេញ</string>
+    <string name="exo_controls_hide">លាក់ការគ្រប់គ្រងកម្មវិធីចាក់ចម្រៀង</string>
+    <string name="exo_controls_next_description">បន្ទាប់</string>
+    <string name="exo_controls_overflow_hide_description">លាក់ការកំណត់​បន្ថែម</string>
+    <string name="exo_controls_overflow_show_description">បង្ហាញការកំណត់​បន្ថែម</string>
+    <string name="exo_controls_pause_description">ផ្អាក</string>
+    <string name="exo_controls_play_description">លេង</string>
+    <string name="exo_controls_playback_speed">ល្បឿន</string>
+    <string name="exo_controls_previous_description">មុន</string>
+    <string name="exo_controls_repeat_all_description">មុខងារបច្ចុប្បន្ន៖ ចាក់ឡើងវិញទាំងអស់។ បិទ/បើកមុខងារចាក់ឡើងវិញ។</string>
+    <string name="exo_controls_repeat_off_description">មុខងារបច្ចុប្បន្ន៖ មិនចាក់ឡើងវិញ។ បិទ/បើកមុខងារចាក់ឡើងវិញ។</string>
+    <string name="exo_controls_repeat_one_description">មុខងារបច្ចុប្បន្ន៖ ចាក់ឡើងវិញមួយ។ បិទ/បើកមុខងារចាក់ឡើងវិញ។</string>
+    <string name="exo_controls_rewind_description">ខា​ថយ​ក្រោយ</string>
+    <string name="exo_controls_seek_bar_description">ការចាក់​កំពុង​ដំណើរការ</string>
+    <string name="exo_controls_settings_description">ការកំណត់</string>
+    <string name="exo_controls_show">បង្ហាញការគ្រប់គ្រងកម្មវិធីចាក់ចម្រៀង</string>
+    <string name="exo_controls_shuffle_off_description">បើក​មុខងារច្របល់</string>
+    <string name="exo_controls_shuffle_on_description">បិទ​មុខងារច្របល់</string>
+    <string name="exo_controls_stop_description">ឈប់</string>
+    <string name="exo_controls_vr_description">មុខងារ VR</string>
+    <string name="exo_download_completed">បាន​បញ្ចប់​ការទាញយក</string>
+    <string name="exo_download_description">ទាញយក</string>
+    <string name="exo_download_downloading">កំពុង​ទាញ​យក</string>
+    <string name="exo_download_failed">មិន​អាច​ទាញយក​បាន​ទេ</string>
+    <string name="exo_download_notification_channel_name">ទាញយក</string>
+    <string name="exo_download_paused">ការទាញយក​ត្រូវបានផ្អាក</string>
+    <string name="exo_download_paused_for_network">ការទាញយក​កំពុងរង់ចាំ​ការតភ្ជាប់បណ្ដាញ</string>
+    <string name="exo_download_paused_for_wifi">ការទាញយក​កំពុងរង់ចាំ​ការតភ្ជាប់ Wi-Fi</string>
+    <string name="exo_download_removing">កំពុង​លុប​ការទាញយក</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">ម៉ូ​ណូ</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">ជំនួស</string>
+    <string name="exo_track_role_closed_captions">អក្សររត់</string>
+    <string name="exo_track_role_commentary">ការអត្ថាធិប្បាយ</string>
+    <string name="exo_track_role_supplementary">បំពេញបន្ថែម</string>
+    <string name="exo_track_selection_auto">ស្វ័យប្រវត្តិ</string>
+    <string name="exo_track_selection_none">គ្មាន</string>
+    <string name="exo_track_selection_title_audio">សំឡេង</string>
+    <string name="exo_track_stereo">ស្តេរ៉េអូ</string>
+    <string name="exo_track_surround">សំឡេង​រងំ</string>
+    <string name="exo_track_surround_5_point_1">សំឡេង​រងំ​ខ្នាត 5.1</string>
+    <string name="exo_track_surround_7_point_1">សំឡេង​រងំ​ខ្នាត 7.1</string>
+    <string name="exo_track_unknown">មិនស្គាល់</string>
+    <string name="exo_track_unknown_name">មិនស្គាល់ (%1$s)</string>
+    <string msgid="4562557128765735254" name="face_or_screen_lock_prompt_message">"ប្រើការចាក់សោអេក្រង់ ឬមុខរបស់អ្នក ដើម្បីបន្ត"</string>
+    <string msgid="2282389249605674226" name="face_prompt_message">"ប្រើមុខរបស់អ្នក ដើម្បីបន្ត"</string>
+    <string msgid="5462024216548165325" name="fingerprint_dialog_icon_description">"រូបស្នាមម្រាមដៃ"</string>
+    <string msgid="1072308044213194243" name="fingerprint_dialog_touch_sensor">"ប៉ះ​ឧបករណ៍​ចាប់ស្នាម​ម្រាមដៃ"</string>
+    <string msgid="8216738333501875566" name="fingerprint_error_hw_not_available">"មិន​អាច​ប្រើហាតវែរ​ស្នាមម្រាមដៃបាន​ទេ។"</string>
+    <string msgid="6306988885793029438" name="fingerprint_error_hw_not_present">"ឧបករណ៍នេះ​មិនមាន​ឧបករណ៍ចាប់​ស្នាមម្រាមដៃទេ"</string>
+    <string msgid="7291787166416782245" name="fingerprint_error_lockout">"ផ្ទៀងផ្ទាត់​មិនត្រឹមត្រូវ​ច្រើនដងពេក​។ សូម​ព្យាយាម​ម្ដង​ទៀត​នៅ​ពេល​ក្រោយ​។"</string>
+    <string msgid="7520712796891883488" name="fingerprint_error_no_fingerprints">"មិន​មាន​ការ​ថតបញ្ចូល​ស្នាម​ម្រាមដៃទេ។"</string>
+    <string msgid="7627716295344353987" name="fingerprint_error_user_canceled">"ប្រតិបត្តិការ​ស្នាម​ម្រាម​ដៃ​ត្រូវ​បាន​បោះ​បង់​ដោយ​អ្នក​ប្រើប្រាស់។"</string>
+    <string msgid="3873359464293253009" name="fingerprint_not_recognized">"មិនអាចសម្គាល់បានទេ"</string>
+    <string msgid="8382576858490514495" name="fingerprint_or_screen_lock_prompt_message">"ប្រើការចាក់សោអេក្រង់ ឬស្នាមម្រាមដៃរបស់អ្នក ដើម្បីបន្ត"</string>
+    <string msgid="7449360011861769080" name="fingerprint_prompt_message">"ប្រើ​ស្នាមម្រាមដៃ​របស់អ្នក ដើម្បីបន្ត"</string>
+    <string msgid="3791785319221634505" name="generic_error_no_device_credential">"គ្មាន​ការកំណត់​កូដ PIN លំនាំ ឬពាក្យសម្ងាត់​ទេ។"</string>
+    <string msgid="1807436368654974044" name="generic_error_no_keyguard">"ឧបករណ៍នេះ​មិនអាចប្រើកូដ PIN លំនាំ ឬពាក្យ​សម្ងាត់បានទេ។"</string>
+    <string msgid="7309881387583143581" name="generic_error_user_canceled">"អ្នកប្រើប្រាស់​បានបោះបង់​ការផ្ទៀងផ្ទាត់ហើយ។"</string>
+    <string msgid="6827826412747255547" name="in_progress">"កំពុងដំណើរការ"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"បានធីកខ្លះ"</string>
+    <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"បង្រួម​សន្លឹកខាងក្រោម"</string>
+    <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"ច្រានចោល​សន្លឹកខាងក្រោម"</string>
+    <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"ដង​អូស"</string>
+    <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"ពង្រីក​សន្លឹកខាងក្រោម"</string>
+    <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"សន្លឹក​ខាងក្រោម"</string>
+    <string msgid="8166741421776570875" name="m3c_date_input_headline">"កាលបរិច្ឆេទដែលបានបញ្ចូល"</string>
+    <string msgid="229313757840775812" name="m3c_date_input_headline_description">"កាលបរិច្ឆេទដែលបានបញ្ចូល៖ %1$s"</string>
+    <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"កាលបរិច្ឆេទមិនត្រូវគ្នានឹងលំនាំដែលរំពឹងទុកទេ៖ %1$s"</string>
+    <string msgid="2521768508935305279" name="m3c_date_input_invalid_not_allowed">"កាលបរិច្ឆេទដែលមិនបានអនុញ្ញាត៖ %1$s"</string>
+    <string msgid="7052898923934555305" name="m3c_date_input_invalid_year_range">"កាលបរិច្ឆេទដែលស្ថិតនៅក្រៅចន្លោះឆ្នាំដែលរំពឹងទុក %1$s - %2$s"</string>
+    <string msgid="2895559812010326913" name="m3c_date_input_label">"កាលបរិច្ឆេទ"</string>
+    <string msgid="1237013946323089826" name="m3c_date_input_no_input_description">"គ្មាន"</string>
+    <string msgid="7306227249789210568" name="m3c_date_input_title">"ជ្រើសរើស​កាលបរិច្ឆេទ"</string>
+    <string msgid="7605002211875882969" name="m3c_date_picker_headline">"កាលបរិច្ឆេទដែលបាន​ជ្រើសរើស"</string>
+    <string msgid="3664277305226978227" name="m3c_date_picker_headline_description">"ការជ្រើសរើសបច្ចុប្បន្ន៖ %1$s"</string>
+    <string msgid="8436650776581492840" name="m3c_date_picker_navigate_to_year_description">"រុករកទៅកាន់ឆ្នាំ %1$s"</string>
+    <string msgid="5811000998184572395" name="m3c_date_picker_no_selection_description">"គ្មាន"</string>
+    <string msgid="7813882352367152251" name="m3c_date_picker_scroll_to_earlier_years">"រំកិលដើម្បី​បង្ហាញឆ្នាំមុនៗ"</string>
+    <string msgid="5727367015496556177" name="m3c_date_picker_scroll_to_later_years">"រំកិលដើម្បី​បង្ហាញឆ្នាំក្រោយៗ"</string>
+    <string msgid="1804346892470238807" name="m3c_date_picker_switch_to_calendar_mode">"ប្ដូរទៅ​មុខងារបញ្ចូល​ប្រតិទិន"</string>
+    <string msgid="395627960681594326" name="m3c_date_picker_switch_to_day_selection">"អូសដើម្បីជ្រើសរើសឆ្នាំ ឬចុចដើម្បីប្ដូរត្រឡប់ទៅការជ្រើសរើសថ្ងៃវិញ"</string>
+    <string msgid="2219746470065162704" name="m3c_date_picker_switch_to_input_mode">"ប្ដូរទៅ​មុខងារបញ្ចូល​អក្សរ"</string>
+    <string msgid="7142101321095356500" name="m3c_date_picker_switch_to_next_month">"ប្ដូរ​ទៅ​ខែបន្ទាប់"</string>
+    <string msgid="228438865139394590" name="m3c_date_picker_switch_to_previous_month">"ប្ដូរ​ទៅ​ខែមុន"</string>
+    <string msgid="791651718641787594" name="m3c_date_picker_switch_to_year_selection">"ប្ដូរទៅ​ការជ្រើសរើសឆ្នាំ"</string>
+    <string msgid="7430790972741451689" name="m3c_date_picker_title">"ជ្រើសរើស​កាលបរិច្ឆេទ"</string>
+    <string msgid="3199387177749801575" name="m3c_date_picker_today_description">"ថ្ងៃនេះ"</string>
+    <string msgid="2068382232816991922" name="m3c_date_picker_year_picker_pane_title">"អាចមើលឃើញផ្ទាំងជ្រើសរើសឆ្នាំ"</string>
+    <string msgid="3190049423327661366" name="m3c_date_range_input_invalid_range_input">"ការបញ្ចូលចន្លោះកាលបរិច្ឆេទមិនត្រឹមត្រូវ"</string>
+    <string msgid="3148384720560189467" name="m3c_date_range_input_title">"បញ្ចូល​កាលបរិច្ឆេទ"</string>
+    <string msgid="2138321128465719402" name="m3c_date_range_picker_day_in_range">"ក្នុងចន្លោះ"</string>
+    <string msgid="4947636797751277713" name="m3c_date_range_picker_end_headline">"កាលបរិច្ឆេទ​បញ្ចប់"</string>
+    <string msgid="602077859540990149" name="m3c_date_range_picker_scroll_to_next_month">"រំកិលដើម្បីបង្ហាញខែក្រោយ"</string>
+    <string msgid="4592174524846109496" name="m3c_date_range_picker_scroll_to_previous_month">"រំកិលដើម្បីបង្ហាញខែមុន"</string>
+    <string msgid="4665981448952749820" name="m3c_date_range_picker_start_headline">"កាលបរិច្ឆេទ​ចាប់ផ្ដើម"</string>
+    <string msgid="3134165431120340385" name="m3c_date_range_picker_title">"ជ្រើសរើស​កាល​បរិច្ឆេទ"</string>
+    <string msgid="7617233117134790350" name="m3c_dialog">"ប្រអប់"</string>
+    <string msgid="3177828188723359358" name="m3c_dropdown_menu_collapsed">"បាន​បង្រួម"</string>
+    <string msgid="2360841780724299882" name="m3c_dropdown_menu_expanded">"បាន​ពង្រីក"</string>
+    <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"បិទ/បើកម៉ឺនុយ​ធ្លាក់​ចុះ"</string>
+    <string msgid="6152806324422087846" name="m3c_search_bar_search">"ស្វែងរក"</string>
+    <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"ច្រានចោល"</string>
+    <string msgid="7655536806087401899" name="m3c_suggestions_available">"ការណែនាំខាងក្រោម"</string>
+    <string msgid="2786685010796619560" name="m3c_time_picker_am">"AM"</string>
+    <string msgid="2349193472625211372" name="m3c_time_picker_hour">"ម៉ោង"</string>
+    <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d ម៉ោង"</string>
+    <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"ជ្រើសរើសម៉ោង"</string>
+    <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"ម៉ោង %1$d"</string>
+    <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"រយៈពេលប៉ុន្មានម៉ោង"</string>
+    <string msgid="4313071914266462005" name="m3c_time_picker_minute">"នាទី​"</string>
+    <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"ជ្រើស​រើសនាទី"</string>
+    <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"%1$d នាទី"</string>
+    <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"រយៈពេលប៉ុន្មាននាទី"</string>
+    <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"ជ្រើសរើស AM ឬ PM"</string>
+    <string msgid="6616362054113087709" name="m3c_time_picker_pm">"PM"</string>
+    <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"បង្ហាញ​កំណត់​ពន្យល់"</string>
+    <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"កំណត់​ពន្យល់"</string>
+    <string msgid="542007171693138492" name="navigation_menu">"ម៉ឺនុយរុករក"</string>
+    <string msgid="6610465462668679431" name="not_selected">"មិនបាន​ជ្រើសរើស"</string>
+    <string msgid="5941395253238309765" name="range_end">"ចំណុចបញ្ចប់"</string>
+    <string msgid="7097486360902471446" name="range_start">"ចំណុចចាប់ផ្ដើម"</string>
+    <string msgid="5659570757430909869" name="screen_lock_prompt_message">"បញ្ចូលការចាក់សោអេក្រង់របស់អ្នក ដើម្បីបន្ត"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"ស្វែងរក"</string>
+    <string msgid="6043586758067023" name="selected">"បានជ្រើសរើស"</string>
+    <string msgid="4139871816613051306" name="state_empty">"ទទេ"</string>
+    <string msgid="5834637030682409883" name="state_off">"បិទ"</string>
+    <string msgid="1490883874751719580" name="state_on">"បើក"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="2561197295334830845" name="switch_role">"ប៊ូតុង​បិទបើក"</string>
+    <string msgid="1672349317127674378" name="tab">"Tab"</string>
+    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> ភាគរយ។"</string>
+    <string msgid="3765533235322692011" name="tooltip_description">"កំណត់​ពន្យល់"</string>
+    <string msgid="3124740595719787496" name="tooltip_label">"បង្ហាញ​កំណត់​ពន្យល់"</string>
+    <string msgid="6524145989441579428" name="use_biometric_label">"ប្រើ​ជីវមាត្រ"</string>
+    <string msgid="5385448280139639016" name="use_biometric_or_screen_lock_label">"ប្រើជីវមាត្រ ឬ​ការចាក់សោអេក្រង់"</string>
+    <string msgid="6533512708069459542" name="use_face_label">"ប្រើមុខ"</string>
+    <string msgid="2116180187159450292" name="use_face_or_screen_lock_label">"ប្រើមុខ ឬ​ការចាក់សោអេក្រង់"</string>
+    <string msgid="6961788485681412417" name="use_fingerprint_label">"ប្រើស្នាមម្រាមដៃ"</string>
+    <string msgid="7577690399303139443" name="use_fingerprint_or_screen_lock_label">"ប្រើស្នាមម្រាមដៃ ឬ​ការចាក់សោអេក្រង់"</string>
+    <string msgid="5459869335976243512" name="use_screen_lock_label">"ប្រើ​ការ​ចាក់​សោ​អេក្រង់"</string>
+</resources>

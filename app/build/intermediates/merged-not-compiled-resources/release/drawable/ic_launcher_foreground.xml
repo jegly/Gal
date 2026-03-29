@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer lens ring -->
+    <path
+        android:fillColor="#E8DDFF"
+        android:pathData="M54,22 A32,32 0 1,1 53.99,22 Z"/>
+    <!-- Mid ring cutout -->
+    <path
+        android:fillColor="#5B2FC9"
+        android:pathData="M54,32 A22,22 0 1,1 53.99,32 Z"/>
+    <!-- Inner iris -->
+    <path
+        android:fillColor="#C4A8FF"
+        android:pathData="M54,40 A14,14 0 1,1 53.99,40 Z"/>
+    <!-- Pupil -->
+    <path
+        android:fillColor="#5B2FC9"
+        android:pathData="M54,47 A7,7 0 1,1 53.99,47 Z"/>
+    <!-- Highlight dot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,44 A2.5,2.5 0 1,1 49.99,44 Z"/>
+</vector>

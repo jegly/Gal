@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="exo_controls_playback_speeds">
+    <item>0.25배속</item>
+    <item>0.5배속</item>
+    <item>0.75배속</item>
+    <item>보통</item>
+    <item>1.25배속</item>
+    <item>1.5배속</item>
+    <item>2배속</item>
+  </string-array>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">%d초 빨리 감기</item>
+    <item quantity="other">%d초 빨리 감기</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">%d초 되감기</item>
+    <item quantity="other">%d초 되감기</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"홈으로 이동"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"위로 이동"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"추가 옵션"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"완료"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"전체 보기"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"앱 선택"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"사용 중지"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"사용"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"스페이스바"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"검색..."</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"검색어 삭제"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"검색어"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"검색"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"검색어 보내기"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"음성 검색"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"공유 대상:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>과(와) 공유"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"접기"</string>
+    <string msgid="2102429900219199821" name="biometric_or_screen_lock_prompt_message">"계속하려면 생체 인식이나 화면 잠금을 사용하세요."</string>
+    <string msgid="1160635338192065472" name="biometric_prompt_message">"계속하려면 생체 인식을 사용하세요."</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"통화"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"동영상"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"거절"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"전화 끊기"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"수신 전화"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"진행 중인 통화"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"수신 전화 검사 중"</string>
+    <string msgid="406453423630273620" name="close_drawer">"탐색 메뉴 닫기"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"시트 닫기"</string>
+    <string msgid="5912733858573823945" name="confirm_device_credential_password">"비밀번호 사용"</string>
+    <string name="crop_image_menu_crop">자르기</string>
+    <string msgid="8038256446254964252" name="default_error_message">"입력이 잘못됨"</string>
+    <string msgid="4776854077120974966" name="default_error_msg">"알 수 없는 오류"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"팝업 창"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"드롭다운 메뉴"</string>
+    <string name="exo_controls_cc_disabled_description">자막 사용 설정</string>
+    <string name="exo_controls_cc_enabled_description">자막 사용 중지</string>
+    <string name="exo_controls_fastforward_description">빨리 감기</string>
+    <string name="exo_controls_fullscreen_enter_description">전체 화면으로 전환</string>
+    <string name="exo_controls_fullscreen_exit_description">전체 화면 종료</string>
+    <string name="exo_controls_hide">플레이어 컨트롤 숨기기</string>
+    <string name="exo_controls_next_description">다음</string>
+    <string name="exo_controls_overflow_hide_description">추가 설정 숨기기</string>
+    <string name="exo_controls_overflow_show_description">추가 설정 표시</string>
+    <string name="exo_controls_pause_description">일시중지</string>
+    <string name="exo_controls_play_description">재생</string>
+    <string name="exo_controls_playback_speed">속도</string>
+    <string name="exo_controls_previous_description">이전</string>
+    <string name="exo_controls_repeat_all_description">현재 모드: 모두 반복. 반목 모드 전환.</string>
+    <string name="exo_controls_repeat_off_description">현재 모드: 반복 안함. 반목 모드 전환.</string>
+    <string name="exo_controls_repeat_one_description">현재 모드: 한 개 반복. 반목 모드 전환.</string>
+    <string name="exo_controls_rewind_description">되감기</string>
+    <string name="exo_controls_seek_bar_description">재생 진행률</string>
+    <string name="exo_controls_settings_description">설정</string>
+    <string name="exo_controls_show">플레이어 컨트롤 표시</string>
+    <string name="exo_controls_shuffle_off_description">셔플 모드 사용 설정</string>
+    <string name="exo_controls_shuffle_on_description">셔플 모드 사용 중지</string>
+    <string name="exo_controls_stop_description">중지</string>
+    <string name="exo_controls_vr_description">가상 현실 모드</string>
+    <string name="exo_download_completed">다운로드 완료</string>
+    <string name="exo_download_description">다운로드</string>
+    <string name="exo_download_downloading">다운로드 중</string>
+    <string name="exo_download_failed">다운로드 실패</string>
+    <string name="exo_download_notification_channel_name">다운로드</string>
+    <string name="exo_download_paused">다운로드 일시중지됨</string>
+    <string name="exo_download_paused_for_network">다운로드를 위해 네트워크 연결 대기 중</string>
+    <string name="exo_download_paused_for_wifi">다운로드를 위해 Wi-Fi 연결 대기 중</string>
+    <string name="exo_download_removing">다운로드 항목 삭제 중</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2fMbps</string>
+    <string name="exo_track_mono">모노</string>
+    <string name="exo_track_resolution">%1$d×%2$d</string>
+    <string name="exo_track_role_alternate">대체</string>
+    <string name="exo_track_role_closed_captions">자막</string>
+    <string name="exo_track_role_commentary">논평</string>
+    <string name="exo_track_role_supplementary">추가</string>
+    <string name="exo_track_selection_auto">자동</string>
+    <string name="exo_track_selection_none">없음</string>
+    <string name="exo_track_selection_title_audio">오디오</string>
+    <string name="exo_track_stereo">스테레오</string>
+    <string name="exo_track_surround">서라운드 사운드</string>
+    <string name="exo_track_surround_5_point_1">5.1 서라운드 사운드</string>
+    <string name="exo_track_surround_7_point_1">7.1 서라운드 사운드</string>
+    <string name="exo_track_unknown">알 수 없음</string>
+    <string name="exo_track_unknown_name">알 수 없음(%1$s)</string>
+    <string msgid="4562557128765735254" name="face_or_screen_lock_prompt_message">"계속하려면 얼굴 또는 화면 잠금을 사용하세요."</string>
+    <string msgid="2282389249605674226" name="face_prompt_message">"계속하려면 얼굴 인식을 사용하세요."</string>
+    <string msgid="5462024216548165325" name="fingerprint_dialog_icon_description">"지문 아이콘"</string>
+    <string msgid="1072308044213194243" name="fingerprint_dialog_touch_sensor">"지문 센서를 터치하세요."</string>
+    <string msgid="8216738333501875566" name="fingerprint_error_hw_not_available">"지문 인식 하드웨어를 사용할 수 없습니다."</string>
+    <string msgid="6306988885793029438" name="fingerprint_error_hw_not_present">"기기에 지문 센서가 없습니다."</string>
+    <string msgid="7291787166416782245" name="fingerprint_error_lockout">"시도 횟수가 너무 많습니다. 나중에 다시 시도해 주세요."</string>
+    <string msgid="7520712796891883488" name="fingerprint_error_no_fingerprints">"등록된 지문이 없습니다."</string>
+    <string msgid="7627716295344353987" name="fingerprint_error_user_canceled">"사용자가 지문 인식 작업을 취소했습니다."</string>
+    <string msgid="3873359464293253009" name="fingerprint_not_recognized">"인식할 수 없음"</string>
+    <string msgid="8382576858490514495" name="fingerprint_or_screen_lock_prompt_message">"계속하려면 지문이나 화면 잠금을 사용하세요."</string>
+    <string msgid="7449360011861769080" name="fingerprint_prompt_message">"계속하려면 지문을 사용하세요."</string>
+    <string msgid="3791785319221634505" name="generic_error_no_device_credential">"PIN, 패턴, 비밀번호가 설정되지 않았습니다."</string>
+    <string msgid="1807436368654974044" name="generic_error_no_keyguard">"PIN, 패턴, 비밀번호를 지원하지 않는 기기입니다."</string>
+    <string msgid="7309881387583143581" name="generic_error_user_canceled">"사용자가 인증을 취소했습니다."</string>
+    <string name="ic_flip_24">반전</string>
+    <string name="ic_flip_24_horizontally">좌우반전</string>
+    <string name="ic_flip_24_vertically">상하반전</string>
+    <string name="ic_rotate_left_24">반시계 회전</string>
+    <string name="ic_rotate_right_24">회전</string>
+    <string msgid="6827826412747255547" name="in_progress">"진행 중"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"일부 선택됨"</string>
+    <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"하단 시트 접기"</string>
+    <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"하단 시트 닫기"</string>
+    <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"드래그 핸들"</string>
+    <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"하단 시트 펼치기"</string>
+    <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"하단 시트"</string>
+    <string msgid="8166741421776570875" name="m3c_date_input_headline">"입력한 날짜"</string>
+    <string msgid="229313757840775812" name="m3c_date_input_headline_description">"입력한 날짜: %1$s"</string>
+    <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"데이터가 예상 패턴과 일치하지 않음: %1$s"</string>
+    <string msgid="2521768508935305279" name="m3c_date_input_invalid_not_allowed">"데이터 허용 안 됨: %1$s"</string>
+    <string msgid="7052898923934555305" name="m3c_date_input_invalid_year_range">"데이터가 예상 연도 범위(%1$s~%2$s)를 벗어남"</string>
+    <string msgid="2895559812010326913" name="m3c_date_input_label">"날짜"</string>
+    <string msgid="1237013946323089826" name="m3c_date_input_no_input_description">"없음"</string>
+    <string msgid="7306227249789210568" name="m3c_date_input_title">"날짜 선택"</string>
+    <string msgid="7605002211875882969" name="m3c_date_picker_headline">"선택한 날짜"</string>
+    <string msgid="3664277305226978227" name="m3c_date_picker_headline_description">"현재 선택사항: %1$s"</string>
+    <string msgid="8436650776581492840" name="m3c_date_picker_navigate_to_year_description">"%1$s년으로 이동"</string>
+    <string msgid="5811000998184572395" name="m3c_date_picker_no_selection_description">"없음"</string>
+    <string msgid="7813882352367152251" name="m3c_date_picker_scroll_to_earlier_years">"스크롤하여 이전 연도 보기"</string>
+    <string msgid="5727367015496556177" name="m3c_date_picker_scroll_to_later_years">"스크롤하여 이후 연도 보기"</string>
+    <string msgid="1804346892470238807" name="m3c_date_picker_switch_to_calendar_mode">"캘린더 입력 모드로 전환"</string>
+    <string msgid="395627960681594326" name="m3c_date_picker_switch_to_day_selection">"스와이프하여 연도를 선택하거나 탭하여 날짜 선택으로 돌아가세요."</string>
+    <string msgid="2219746470065162704" name="m3c_date_picker_switch_to_input_mode">"텍스트 입력 모드로 전환"</string>
+    <string msgid="7142101321095356500" name="m3c_date_picker_switch_to_next_month">"다음 달로 변경"</string>
+    <string msgid="228438865139394590" name="m3c_date_picker_switch_to_previous_month">"이전 달로 변경"</string>
+    <string msgid="791651718641787594" name="m3c_date_picker_switch_to_year_selection">"연도 선택으로 전환"</string>
+    <string msgid="7430790972741451689" name="m3c_date_picker_title">"날짜 선택"</string>
+    <string msgid="3199387177749801575" name="m3c_date_picker_today_description">"오늘"</string>
+    <string msgid="2068382232816991922" name="m3c_date_picker_year_picker_pane_title">"연도 선택 도구 표시"</string>
+    <string msgid="3190049423327661366" name="m3c_date_range_input_invalid_range_input">"잘못된 기간 입력"</string>
+    <string msgid="3148384720560189467" name="m3c_date_range_input_title">"날짜 입력"</string>
+    <string msgid="2138321128465719402" name="m3c_date_range_picker_day_in_range">"범위 내"</string>
+    <string msgid="4947636797751277713" name="m3c_date_range_picker_end_headline">"종료일"</string>
+    <string msgid="602077859540990149" name="m3c_date_range_picker_scroll_to_next_month">"스크롤하여 다음 달 보기"</string>
+    <string msgid="4592174524846109496" name="m3c_date_range_picker_scroll_to_previous_month">"스크롤하여 이전 달 보기"</string>
+    <string msgid="4665981448952749820" name="m3c_date_range_picker_start_headline">"시작일"</string>
+    <string msgid="3134165431120340385" name="m3c_date_range_picker_title">"날짜 선택"</string>
+    <string msgid="7617233117134790350" name="m3c_dialog">"대화상자"</string>
+    <string msgid="3177828188723359358" name="m3c_dropdown_menu_collapsed">"접힘"</string>
+    <string msgid="2360841780724299882" name="m3c_dropdown_menu_expanded">"펼침"</string>
+    <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"전환 드롭다운 메뉴"</string>
+    <string msgid="6152806324422087846" name="m3c_search_bar_search">"검색"</string>
+    <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"닫기"</string>
+    <string msgid="7655536806087401899" name="m3c_suggestions_available">"아래의 추천 검색어"</string>
+    <string msgid="2786685010796619560" name="m3c_time_picker_am">"오전"</string>
+    <string msgid="2349193472625211372" name="m3c_time_picker_hour">"시간"</string>
+    <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d시간"</string>
+    <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"시간 선택"</string>
+    <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"%1$d시 정각"</string>
+    <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"기간(시간)"</string>
+    <string msgid="4313071914266462005" name="m3c_time_picker_minute">"분"</string>
+    <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"분 선택"</string>
+    <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"%1$d분"</string>
+    <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"기간(분)"</string>
+    <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"오전 또는 오후를 선택하세요."</string>
+    <string msgid="6616362054113087709" name="m3c_time_picker_pm">"오후"</string>
+    <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"도움말 표시"</string>
+    <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"도움말"</string>
+    <string msgid="542007171693138492" name="navigation_menu">"탐색 메뉴"</string>
+    <string msgid="6610465462668679431" name="not_selected">"선택되지 않음"</string>
+    <string name="pick_image_camera">촬영</string>
+    <string name="pick_image_chooser_title">이미지 선택</string>
+    <string name="pick_image_gallery">앨범</string>
+    <string msgid="5941395253238309765" name="range_end">"범위 끝"</string>
+    <string msgid="7097486360902471446" name="range_start">"범위 시작"</string>
+    <string msgid="5659570757430909869" name="screen_lock_prompt_message">"계속하려면 화면 잠금용 사용자 인증 정보를 입력하세요."</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"검색"</string>
+    <string msgid="6043586758067023" name="selected">"선택됨"</string>
+    <string msgid="4139871816613051306" name="state_empty">"비어 있음"</string>
+    <string msgid="5834637030682409883" name="state_off">"사용 안함"</string>
+    <string msgid="1490883874751719580" name="state_on">"사용"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="2561197295334830845" name="switch_role">"스위치"</string>
+    <string msgid="1672349317127674378" name="tab">"탭"</string>
+    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g>퍼센트"</string>
+    <string msgid="3765533235322692011" name="tooltip_description">"도움말"</string>
+    <string msgid="3124740595719787496" name="tooltip_label">"도움말 표시"</string>
+    <string msgid="6524145989441579428" name="use_biometric_label">"생체 인식 사용"</string>
+    <string msgid="5385448280139639016" name="use_biometric_or_screen_lock_label">"생체 인식 또는 화면 잠금 사용"</string>
+    <string msgid="6533512708069459542" name="use_face_label">"얼굴 인식 사용"</string>
+    <string msgid="2116180187159450292" name="use_face_or_screen_lock_label">"얼굴 또는 화면 잠금 사용"</string>
+    <string msgid="6961788485681412417" name="use_fingerprint_label">"지문 사용"</string>
+    <string msgid="7577690399303139443" name="use_fingerprint_or_screen_lock_label">"지문 또는 화면 잠금 사용"</string>
+    <string msgid="5459869335976243512" name="use_screen_lock_label">"화면 잠금 사용"</string>
+</resources>

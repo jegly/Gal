@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "com.gal.app-debug-78:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.gal.app-main-80:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.gal.app-debug-78:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.gal.app-main-80:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.gal.app-debug-78:/xml_filepaths.xml.flat",
+        "source": "com.gal.app-main-80:/xml/filepaths.xml"
+    },
+    {
+        "merged": "com.gal.app-debug-78:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.gal.app-main-80:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.gal.app-debug-78:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.gal.app-main-80:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.gal.app-debug-78:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.gal.app-main-80:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.gal.app-debug-78:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.gal.app-main-80:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.gal.app-debug-78:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.gal.app-main-80:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.gal.app-debug-78:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.gal.app-main-80:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.gal.app-debug-78:/xml_data_extraction_rules.xml.flat",
+        "source": "com.gal.app-main-80:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.gal.app-debug-78:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.gal.app-main-80:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.gal.app-debug-78:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.gal.app-main-80:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.gal.app-debug-78:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.gal.app-main-80:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.gal.app-debug-78:/font_dotgothic16_regular.ttf.flat",
+        "source": "com.gal.app-main-80:/font/dotgothic16_regular.ttf"
+    },
+    {
+        "merged": "com.gal.app-debug-78:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.gal.app-main-80:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.gal.app-debug-78:/xml_network_security_config.xml.flat",
+        "source": "com.gal.app-main-80:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.gal.app-debug-78:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.gal.app-main-80:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.gal.app-debug-78:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.gal.app-main-80:/mipmap-hdpi/ic_launcher.png"
+    }
+]

@@ -1,0 +1,4 @@
+#Sat Mar 28 22:02:20 AEDT 2026
+base.0=/home/user/Downloads/Gal-source/gal/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex
