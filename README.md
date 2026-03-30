@@ -38,7 +38,7 @@ sha256:4453ecbcbcecf35337250ec776068339f666128f12a6ba9eceb4c200d4d8ee4c
     Kotlin + Jetpack Compose
     Hilt, Room, DataStore
     Coil 3, Media3 ExoPlayer
-    android-image-cropper
+    
 
 ## PERMISSIONS
 
