@@ -7,36 +7,23 @@ import androidx.compose.animation.scaleOut
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.GridView
-import androidx.compose.material.icons.filled.PhotoLibrary
-import androidx.compose.material.icons.filled.Search
-import androidx.compose.material.icons.outlined.GridView
-import androidx.compose.material.icons.outlined.PhotoLibrary
-import androidx.compose.material.icons.outlined.Search
-import androidx.compose.material3.NavigationBar
+import androidx.compose.material.icons.Iconsimport androidx.compose.material.icons.filled.GridViewimport androidx.compose.material.icons.filled.PhotoLibraryimport androidx.compose.material.icons.filled.Searchimport androidx.compose.material.icons.outlined.GridViewimport androidx.compose.material.icons.outlined.PhotoLibraryimport androidx.compose.material.icons.outlined.Searchimport androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.unit.dp
+import androidx.compose.runtime.Composableimport androidx.compose.runtime.getValue
+import androidx.compose.ui.Modifierimport androidx.compose.ui.graphics.vector.ImageVectorimport androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.navigation.NavDestination.Companion.hierarchy
-import androidx.navigation.NavGraph.Companion.findStartDestination
-import androidx.navigation.NavType
-import androidx.navigation.compose.NavHost
+import androidx.navigation.NavDestination.Companion.hierarchyimport androidx.navigation.NavGraph.Companion.findStartDestination
+import androidx.navigation.NavTypeimport androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.gal.ui.screens.albums.AlbumScreen
 import com.gal.ui.screens.albums.AlbumsScreen
-import com.gal.ui.screens.editor.EditActivity
-import com.gal.ui.screens.search.SearchScreen
+import com.gal.ui.screens.editor.EditActivityimport com.gal.ui.screens.search.SearchScreen
 import com.gal.ui.screens.settings.SettingsScreen
 import com.gal.ui.screens.timeline.TimelineScreen
 import com.gal.ui.screens.trash.TrashScreen
@@ -55,34 +42,22 @@ private val topLevelRoutes = listOf(
     TopLevelRoute("Search", "search",   Icons.Filled.Search,        Icons.Outlined.Search),
 )
 
-@Composable
-fun GalNavHost() {
+@Composablefun GalNavHost() {
     val navController = rememberNavController()
     val navBackStackEntry by navController.currentBackStackEntryAsState()
-    val currentRoute = navBackStackEntry?.destination?.route
-    val showBottomBar = topLevelRoutes.any { it.route == currentRoute }
-    val isViewer = currentRoute?.startsWith("viewer/") == true
-
-    Scaffold(
+    val currentRoute = navBackStackEntry?.destination?.route    val showBottomBar = topLevelRoutes.any { it.route == currentRoute }
+    val isViewer = currentRoute?.startsWith("viewer/") == true    Scaffold(
         bottomBar = {
             if (showBottomBar) {
-                // Let NavigationBar handle ALL window insets itself —
-                // this is the only correct way that works for both
-                // gesture nav (adds nothing) and button nav (adds button bar height)
                 NavigationBar(tonalElevation = 0.dp) {
                     topLevelRoutes.forEach { dest ->
-                        val selected = navBackStackEntry?.destination?.hierarchy
-                            ?.any { it.route == dest.route } == true
-                        NavigationBarItem(
+                        val selected = navBackStackEntry?.destination?.hierarchy                            ?.any { it.route == dest.route } == true                        NavigationBarItem(
                             selected = selected,
                             onClick = {
                                 navController.navigate(dest.route) {
                                     popUpTo(navController.graph.findStartDestination().id) {
-                                        saveState = true
-                                    }
-                                    launchSingleTop = true
-                                    restoreState = true
-                                }
+                                        saveState = true                                    }
+                                    launchSingleTop = true                                    restoreState = true                                }
                             },
                             icon = {
                                 Icon(
@@ -101,7 +76,6 @@ fun GalNavHost() {
         NavHost(
             navController = navController,
             startDestination = "timeline",
-            // Viewer gets no scaffold padding — handles its own insets
             modifier = if (isViewer) Modifier.fillMaxSize()
                        else Modifier.padding(innerPadding),
             enterTransition = { fadeIn() + scaleIn(initialScale = 0.97f) },
@@ -127,11 +101,11 @@ fun GalNavHost() {
                     navArgument("albumName") { type = NavType.StringType },
                 ),
             ) { back ->
-                AlbumScreen(
+                val albumId = back.arguments?.getLong("albumId") ?: -1L                AlbumScreen(
                     albumName = back.arguments?.getString("albumName") ?: "",
                     onBack = { navController.popBackStack() },
                     onMediaClick = { media, _ ->
-                        navController.navigate("viewer/${media.id}/album")
+                        navController.navigate("viewer/${media.id}/album?albumId=$albumId")
                     },
                 )
             }
@@ -150,10 +124,12 @@ fun GalNavHost() {
                 SettingsScreen(onBack = { navController.popBackStack() })
             }
             composable(
-                "viewer/{mediaId}/{source}",
+                "viewer/{mediaId}/{source}?albumId={albumId}",
                 arguments = listOf(
                     navArgument("mediaId") { type = NavType.LongType },
                     navArgument("source") { type = NavType.StringType },
+                    navArgument("albumId") { 
+                        type = NavType.LongType                        defaultValue = -1L                    },
                 ),
             ) {
                 MediaViewerScreen(
