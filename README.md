@@ -5,7 +5,6 @@ No network. No cloud. No tracking.
 
 
 
-sha256:4453ecbcbcecf35337250ec776068339f666128f12a6ba9eceb4c200d4d8ee4c
 ---
 
 ## FEATURES
@@ -51,4 +50,4 @@ sha256:4453ecbcbcecf35337250ec776068339f666128f12a6ba9eceb4c200d4d8ee4c
 
 ---
 
-  
+  sha256:bb31cb2a46d15114e20ca5691ee12ea70fbef1f0a80dfc77c327e5fbd18eab80
