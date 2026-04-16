@@ -3,7 +3,7 @@
 A private, minimal photo and video gallery for Android.
 No network. No cloud. No tracking.
 
-
+![GitHub all releases](https://img.shields.io/github/downloads/jegly/Gal/total)
 
 ---
 
